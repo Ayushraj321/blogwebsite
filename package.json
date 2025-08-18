@@ -2,11 +2,10 @@
   "name": "blog-website",
   "version": "1.0.0",
   "scripts": {
-    "build": "cd client && npm install && npm run build",
     "start": "cd server && npm start",
-    "dev": "cd server && npm run dev"
+    "build": "cd client && npm install && npm run build"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": "18.x"
   }
 }
