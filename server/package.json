@@ -2,15 +2,16 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "package.js",
+  "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "client-install": "cd client && npm install",
-    "client-build": "cd client && npm run build",
-    "vercel-postbuild": "npm run client-install && npm run client-build "
+    "build": "echo 'No build step required'"
   },
   "author": "",
   "license": "ISC",
