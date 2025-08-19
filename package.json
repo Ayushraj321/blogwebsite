@@ -2,8 +2,7 @@
   "name": "blog-website",
   "version": "1.0.0",
   "scripts": {
-    "start": "cd server && npm start",
-    "build": "cd client && npm install && npm run build"
+    "vercel-build": "cd client && npm install && npm run build"
   },
   "engines": {
     "node": "18.x"
